@@ -45,8 +45,8 @@ with open(device_cfg_old, 'r') as old_file, open('cfgfiles/' + ip + '_' + dateti
     
 #Sending the differences via email
 #Defining the e-mail parameters
-fromaddr = 'mihai.python3@gmail.com'
-toaddr = 'mihai.python3@gmail.com'
+fromaddr = 'ernest.python3@gmail.com'
+toaddr = 'ernest.python3@gmail.com'
 
 #More on MIME and multipart: https://en.wikipedia.org/wiki/MIME#Multipart_messages
 msg = MIMEMultipart()
